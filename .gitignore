@@ -1,0 +1,35 @@
+############################################################
+# OmicsFormer-India
+############################################################
+
+# Ignore downloaded datasets
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore logs
+logs/
+
+# Ignore Weights & Biases
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
